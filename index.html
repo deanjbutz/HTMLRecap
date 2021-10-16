@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTLRecap Assignment</title>
+</head>
+<body>
+    <h1>HMTLRecap Assignment</h1>
+    <p>I created this page to utilize the following elements:</p>
+    <p>
+        <ul>
+            <li><a href="../../HTMLCSSPrework/1-HTML-Basics/09-forms.html" target="_blank">form</a></li>
+            <li><a href="../../HTMLCSSPrework/1-HTML-Basics/08-input.html" target="_blank">input</a></li>
+            <li><a href="../../HTMLCSSPrework/1-HTML-Basics/07-divs.html" target="_blank">div</a></li>
+            <li><a href="../../HTMLCSSPrework/1-HTML-Basics/14-iframes.html" target="_blank">iframe</a></li>
+            <li><a href="../../HTMLCSSPrework/1-HTML-Basics/13-navs.html" target="_blank">nav</a></li>
+        </ul>
+    </p>
+
+    <hr>
+
+    <h1>The Grateful Dead</h1>
+    <div style="border: 2px solid black; padding: 1rem;">
+        <form>
+            <fieldset>
+                <legend>Do you enjoy the Grateful Dead?</legend>
+                <p>
+                    <input type="radio" name="size" id="size0" value="size0" />
+                    <label for="size0">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size1" value="size1" />
+                    <label for="size1">Of Course</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size2" value="size2" />
+                    <label for="size2">Absolutely</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>If not, why?</legend>
+                <p>
+                    <input type="checkbox" name="fixins" id="never" value="never">
+                    <label for="never">Never heard of them</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="deaf" value="deaf">
+                    <label for="deaf">I'm deaf</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="bad" value="bad">
+                    <label for="bad">I have a bad taste in music</label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    <div style="border: 2px solid red; padding: 1rem;">
+        <nav style="text-align: center;">
+            <h3>Grateful Dead YouTube Videos</h3>
+            <dl>
+                <dd>
+                    <label>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U5Ngb6CgUOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Me and My Uncle</iframe>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Me_and_My_Uncle" target="_blank">Me and My Uncle</a>
+                    </label>
+                </dd>
+                <br>
+                <dd>
+                    <label>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pffX4oQ-OJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Fire_on_the_Mountain_(Grateful_Dead_song)" target="_blank">Fire on the Mountain</a>                       
+                    </label>
+                </dd>
+            </dl>
+        </nav>
+    </div>
+    <footer>
+        <nav style="text-align: center;">
+            <a href="../BasicHTMLTags/index.html">BasicHTMLTags Assignment</a>
+            <a href="../../GitFundamentals/README.md">GitFundamentals README</a>
+            <a href="../../TerminalDungeon/README.md">Terminal Dungeon README</a>
+        </nav>
+    </footer>
+</body>
+</html>
